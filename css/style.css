@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Comic Sans MS;
+    font-weight: bold;
+    background-color: blue;
+}
+.txt{
+    display: flex;
+    float: right;
+    margin-right: 100px;
+}
+.parent{
+    display: flex;
+    float: right;
+    margin-top: 10%;
+}
+.parent .child1 button{
+    font-size: 100px;
+    margin-left: 10px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    transition: 0.7s;
+}
+.r1active button{
+    background-color: yellowgreen;
+}
+.child1 button:hover{
+    background-color: yellowgreen;
+}
+.parent .child2 button{
+    margin-top: 9px;
+    font-size: 100px;
+    margin-left: 10px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    transition: 0.7s;
+}
+.p1active button{
+    background-color: yellowgreen;
+}
+.child2 button:hover{
+    background-color: yellowgreen;
+}
+.parent .child3 button{
+    font-size: 100px;
+    margin-left: 10px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    transition: 0.7s;
+}
+.s1active button{
+    background-color: yellowgreen;
+}
+.child3 button:hover{
+    background-color: yellowgreen;
+}
+.rock{
+    font-size: 100px;
+    margin-top: 5%;
+    margin-left: 5%;
+    visibility: hidden;
+    opacity: 0;
+}
+.ractive{
+    visibility: visible;
+    opacity: 1;
+}
+.paper{
+    font-size: 100px;
+    margin-top: -15%;
+    margin-left: 5%;
+    visibility: hidden;
+    opacity: 0;
+}
+.pactive{
+    visibility: visible;
+    opacity: 1;
+}
+.scissors{
+    font-size: 100px;
+    margin-top: -11%;
+    margin-left: 5%;
+    visibility: hidden;
+    opacity: 0;
+}
+.sactive{
+    visibility: visible;
+    opacity: 1;
+}
+.win{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 30%;
+    visibility: hidden;
+    opacity: 0;
+}
+.wactive{
+    visibility: visible;
+    opacity: 1;
+}
+.lose{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 30%;
+    visibility: hidden;
+    opacity: 0;
+}
+.lactive{
+    visibility: visible;
+    opacity: 1;
+}
+.tie{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 30%;
+    visibility: hidden;
+    opacity: 0;
+}
+.tactive{
+    visibility: visible;
+    opacity: 1;
+}
+.btn{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: 30%;
+    padding: 5px 10px;
+    font-size: xx-large;
+    border: 1px solid #fff;
+    background-color: yellow;
+}
+.btn:hover{
+    background-color: yellowgreen;
+}
